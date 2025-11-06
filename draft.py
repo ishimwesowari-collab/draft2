@@ -25,4 +25,5 @@ if st.button("Predict Yield"):
     pred = model.predict(X)
 
     # Display result
+
     st.success(f"🌱 Predicted Crop Yield: *{pred[0]:.2f}* units")
